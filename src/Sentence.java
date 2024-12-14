@@ -8,7 +8,7 @@ import java.util.List;
  * слів заданої довжини.
  */
 class Sentence {
-    private final List<Object> components; // Слова и знаки препинания
+    private final List<Object> components; // Слова та розділові знаки
 
     // Конструктор. Виконуємо розбиття речення на "компоненти" - екземпляр класу "Word"
     public Sentence(String sentence) {
